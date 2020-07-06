@@ -2,3 +2,9 @@
   min-height: calc(100vh - 133px);
   background: url("../../../assets/images/pools/pool3.jpg") no-repeat center -420px;
 }
+
+@media only screen and (max-width: 550px) {
+  .mainWrapper {
+    background: url("../../../assets/images/pools/pool3.jpg") no-repeat center -600px;
+  }
+}

@@ -62,7 +62,7 @@
 .navbar-mobileContainer-links {
   z-index: 16;
   position: absolute;
-  background: rgba(0, 0, 0, 90%);
+  /* background: rgba(0, 0, 0, 90%); */
   top: 50px;
   left: 0px;
   display: flex;
@@ -71,10 +71,10 @@
 }
 
 .navbar-mobileContainer-links a {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   padding: 5px;
   margin-left: 10px;
-  color: #999;
+  color: white;
 }
 
 .navbar-mobileContainer-links a:hover {
@@ -106,5 +106,15 @@
   }
   .navbar-mobile-bars:hover {
     color: white;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar-logo a {
+    margin: 0px 5px;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-decoration: none;
   }
 }

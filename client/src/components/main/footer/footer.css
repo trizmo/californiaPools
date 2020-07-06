@@ -13,12 +13,14 @@
   font-size: 3rem;
   font-family: 'Lobster', cursive;
   color: white;
+  text-align: center;
 }
 
 .footer-secondContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
 }
 
 .footer-navLinks {
@@ -75,5 +77,8 @@
   }
   .footer-thirdContainer-links {
     flex-direction: column;
+  }
+  .footer-title {
+    font-size: 2.5rem;
   }
 }

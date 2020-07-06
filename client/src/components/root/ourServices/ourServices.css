@@ -1,0 +1,49 @@
+.ourServices-wrapper {
+  background: white;
+  /* margin: .75rem; */
+  padding: 5rem 3rem;
+  display: flex;
+  background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+}
+
+.ourServices-offers {
+  width: 50%;
+}
+
+.ourServices-title {
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+}
+
+.ourServices-offers li {
+  font-size: 1.25rem;
+}
+
+.ourServices-info {
+  width: 50%;
+}
+
+.ourServices-info p {
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 830px) {
+  .ourServices-wrapper {
+    padding: 2rem 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ourServices-offers {
+    width: 100%;
+  }
+  .ourServices-info {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .ourServices-wrapper {
+    padding: 3rem .75rem;
+  }
+}

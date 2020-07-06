@@ -1,0 +1,4 @@
+.mainWrapper {
+  min-height: calc(100vh - 133px);
+  background: url("../../../assets/images/pools/pool3.jpg") no-repeat center -420px;
+}

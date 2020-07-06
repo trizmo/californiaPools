@@ -1,0 +1,110 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+  /* background-color: #19647E; */
+  /* background-image: url("../../../assets/images/textures/navtext.jpg"); */
+  /* border-bottom: 3px #002C4D solid; */
+}
+
+.navbar-logo {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-logo a {
+  margin: 0px 25px;
+  font-size: 2.75rem;
+  /* font-weight: 700; */
+  font-family: 'Lobster', cursive;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-logo a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-links-desktop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0px 25px;
+}
+
+.navbar-links-desktop a {
+  color: white;
+  margin: 0px 5px 3px 20px;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.navbar-links-desktop a:hover {
+  margin: 0px 5px 0px 20px;
+  color: white;
+  border-bottom: 3px solid #002C4D;
+  text-decoration: none;
+}
+
+.navbar-desktop-navlink-phone:hover {
+  text-decoration: none
+}
+
+.navbar-mobileContainer {
+  display: none;
+}
+
+.navbar-mobileContainer-links {
+  z-index: 16;
+  position: absolute;
+  background: rgba(0, 0, 0, 90%);
+  top: 50px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+
+.navbar-mobileContainer-links a {
+  font-size: 1.25rem;
+  padding: 5px;
+  margin-left: 10px;
+  color: #999;
+}
+
+.navbar-mobileContainer-links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-mobile-bars {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .navbar-wrapper {
+    height: 50px;
+  }
+  .navbar-links-desktop {
+    display: none;
+  }
+  .navbar-mobileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .navbar-mobile-bars:hover {
+    color: white;
+  }
+}

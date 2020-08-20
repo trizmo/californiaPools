@@ -1,8 +1,11 @@
 .navbar-wrapper {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   height: 110px;
-  /* background-color: #19647E; */
+  width: 100%;
+  background-color: rgba(25, 100, 126, .85);
+  z-index: 11;
   /* background-image: url("../../../assets/images/textures/navtext.jpg"); */
   /* border-bottom: 3px #002C4D solid; */
 }

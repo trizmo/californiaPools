@@ -2,8 +2,15 @@
   background: white;
   /* margin: .75rem; */
   padding: 5rem 3rem;
-  display: flex;
   background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+  display: flex;
+  justify-content: center;
+}
+
+.ourServices-content {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
 }
 
 .ourServices-offers {
@@ -28,8 +35,8 @@
 }
 
 @media only screen and (max-width: 830px) {
-  .ourServices-wrapper {
-    padding: 2rem 3rem;
+  .ourServices-content {
+    padding: 2rem 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -39,6 +46,7 @@
   }
   .ourServices-info {
     width: 100%;
+    padding: 2em 0em;
   }
 }
 

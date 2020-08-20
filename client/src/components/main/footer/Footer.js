@@ -1,4 +1,5 @@
 import React from 'react'
+import { GrFacebook, GrTwitter, GrYoutube } from 'react-icons/gr'
 
 // CSS
 import './footer.css'
@@ -10,18 +11,18 @@ export default function Footer() {
         <p className="footer-title">California Pools</p>
       </div>
       <div className='footer-secondContainer'>
-        <a href="/services" className="footer-navLinks">Services</a>
-        <a href="#" className="footer-navLinks">Our Company</a>
-        <a href="/contact" className="footer-navLinks">Contact</a>
+        <a href="#company" className="footer-navLinks">Our Company</a>
+        <a href="#services" className="footer-navLinks">Services</a>
+        <a href="#contact" className="footer-navLinks">Contact</a>
       </div>
       <div className='footer-thirdContainer'>
         <div className='footer-thirdContainer-text'>
           <p>Social</p>
         </div>
         <div className='footer-thirdContainer-links'>
-          <a href="#" >Twitter</a>
-          <a href="#" >Facebook</a>
-          <a href="#" >Youtube</a>
+          <a href="#" ><GrTwitter />	&nbsp;Twitter</a>
+          <a href="#" ><GrFacebook />	&nbsp;Facebook</a>
+          <a href="#" ><GrYoutube />	&nbsp;Youtube</a>
         </div>
       </div>
     </div>

@@ -19,9 +19,9 @@ export default class Navbar extends Component {
   mobileNavLinks = () => {
     return (
       <div className='navbar-mobileContainer-links'>
+        <a href="/company" className="navbar-mobile-navlink">Our Company</a>
         <a href="/services" className="navbar-mobile-navlink">Services</a>
         {/* <a href="#" className="navbar-mobile-navlink"></a> */}
-        <a href="/company" className="navbar-mobile-navlink">Our Company</a>
         <a href="/contact" className="navbar-mobile-navlink">Contact</a>
       </div>
     )
@@ -36,10 +36,10 @@ export default class Navbar extends Component {
             <a href="/" className="navbar-desktop-navlink-phone">(800) 555 4561</a>
           </div>
           <div className='navbar-links-desktop-lower'>
-            <a href="/services" className="navbar-desktop-navlink">Services</a>
+            <a href="#company" className="navbar-desktop-navlink">Our Company</a>
+            <a href="#services" className="navbar-desktop-navlink">Services</a>
             {/* <a href="#" className="navbar-desktop-navlink">Projects</a> */}
-            <a href="/company" className="navbar-desktop-navlink">Our Company</a>
-            <a href="/contact" className="navbar-desktop-navlink">Contact</a>
+            <a href="#contact" className="navbar-desktop-navlink">Contact</a>
           </div>
         </div>
         <div className='navbar-mobileContainer'>
